@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 
-# Chemins
+# Chemins 15/04
 base_dir = Path(__file__).resolve().parent.parent
 input_file = base_dir / "data" / "bronze" / "valeursfoncieres-2025/ValeursFoncieres-2025.parquet"
 output_file = base_dir / "data" / "silver" / "valeursfoncieres_silver.parquet"
