@@ -1,6 +1,7 @@
-# Data (très important)
-data/
+# Ignore tous les parquet
 *.parquet
+# MAIS autorise ceux du gold (sample)
+!data/gold/*.parquet
 
 *.csv
 *.xlsx
